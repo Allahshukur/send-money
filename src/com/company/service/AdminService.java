@@ -14,7 +14,8 @@ public class AdminService {
         adminMenyu();
 
         for (int i =1; i < 4; ) {
-            if (admin.getAdminName().equalsIgnoreCase("aa") && admin.getPassword().equalsIgnoreCase("11")) {
+            if (admin.getAdminName().equalsIgnoreCase("aa")
+                    && admin.getPassword().equalsIgnoreCase("11")) {
                 userMenyu();
                 break;
             } else if (i == 3) {
