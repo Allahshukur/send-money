@@ -64,10 +64,8 @@ public class AdminService {
             } else if (operation == 6) {
                 userService.sendMoney();
             } else if (operation == 7){
-
-            } else if (operation == 8){
                 adminRegistraton();
-            } else if (operation ==9){
+            } else if (operation ==8){
                 userService.exit();
             } else {
                 System.out.println("There is no such operation please again enter new Operation");
